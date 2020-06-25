@@ -1,0 +1,154 @@
+:root {
+	--purple1: #edd0f5;
+	--purple2: #dfb7eb;
+	--purple3: #b54fd1;
+	--purple4: #962bb3;
+	--green1: #d4ffd4;
+	--green2: #b1f0b2;
+	--green3: #67c267;
+	--green4: #54ab54;
+	--blue1: #c7e6ff;
+	--blue2: #97ccf7;
+	--blue3: #0275d4;
+	--blue4: #005fad;
+	--tan1: #faf8ed;
+	--tan2: #faf5d4;
+}
+.Button {
+	border: none;
+	font-size: 36px;
+	font-family:"Helvetica"
+}
+.text {
+	color:#302e13;
+	font-family:"Helvetica";
+}
+.alignLeft {
+	float:left;
+}
+.alignRight {
+	float:right;
+}
+#HomeButton {
+	background-color:var(--blue1);
+	color:var(--blue3);
+	cursor:pointer;
+}
+#ContactButton {
+	background-color:var(--green1);
+	color:var(--green3);
+	cursor:pointer;
+}
+#ProjectsButton {
+	background-color:var(--purple1);
+	color:var(--purple3);
+}
+.dropdownButton {
+	background-color:var(--purple1);
+	color:var(--purple3);
+	cursor:pointer;
+	font-size: 19px;
+	width: 100%;
+	text-align: left;
+}
+.dropdownButton:hover {
+	background-color:var(--purple2);
+	color:var(--purple4);
+}
+.miniHeader {
+	color:#302e13;
+	font-family:"Helvetica";
+}
+.largeHeader {
+	color:#302e13;
+	font-family:"Helvetica";
+	font-size: 28px;
+}
+.programNames {
+	color:#302e13;
+	font-family:"Helvetica";
+}
+.thumbnail {
+	display:inline-block;
+}
+#header {
+	overflow: visible;
+}
+#projectDropdown {
+	position: relative;
+	display:inline-block;
+}
+#dropdownContent {
+	position: absolute;
+	z-index: 1;
+	display:none;
+}
+
+#leftColumn {
+	display:inline-block;
+	width:440px;
+}
+
+#rightColumn {
+	display:inline-block;
+	width:calc(100% - 440px);
+	float:right;
+}
+
+#footer {
+	display:block;
+	text-align:center;
+	position:relative;
+}
+
+#basicFacts {
+	width:100%;
+	text-align:center;
+}
+.spacingRight {
+	margin-left:10px;
+	margin-right:20px;
+}
+
+.spacingLeft {
+	margin-left:20px;
+	margin-right:10px;
+}
+
+.spacing {
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#sourceCodeDiv {
+	text-align:center;
+}
+
+.license {
+	display:inline-block;
+}
+
+#changelog {
+	border:2px solid grey;
+	border-radius:5px;
+}
+
+#instructions {
+	border:2px solid grey;
+	border-radius:5px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#canvas1 {
+	margin-top:20px;
+}
+
+.changelogEntry {
+	background-color:var(--tan2);
+	border-radius:3px;
+}
+
+.links {
+	font-family:"Helvetica";
+}
